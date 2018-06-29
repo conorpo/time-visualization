@@ -50,7 +50,7 @@ function iDraw(){
         for(var j = 0; j<=mn;j++){
             if(j != mn) {
                 sc = 60;
-            }else if (mn!=60){
+            }else if (mn!=59){
                 sc=second();
             }
             for(var i = 0;i<sc;i++){
